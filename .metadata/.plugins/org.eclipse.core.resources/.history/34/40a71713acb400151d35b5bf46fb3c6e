@@ -1,0 +1,23 @@
+package com.zup.movies;
+
+import android.view.View;
+import android.view.View.OnClickListener;
+
+public class MainActivityController implements OnClickListener{
+
+	@Override
+	public void onClick(View v) {
+		int id = v.getId();
+		
+		switch(id) {
+		case R.id.addMovieLayout:
+			addMovieAction();
+			break;
+		}
+	}
+
+	private void addMovieAction() {
+		
+	}
+
+}

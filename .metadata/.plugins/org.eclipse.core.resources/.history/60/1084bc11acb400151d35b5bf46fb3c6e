@@ -1,0 +1,43 @@
+package com.zup.movies;
+
+import com.zup.movies.R;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.TextView;
+
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);	
+		initView();
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+	
+	public void initView() {
+		this.setContentView(R.layout.activity_main);
+	}
+	
+	public class Holder {
+		final TextView emptyViewText;
+		final ListView moviewListView;
+		final LinearLayout addMovieLayout;
+		
+		public Holder(Activity activity) {
+			emptyViewText = (TextView) activity.findViewById(R.id.emptyList);
+			moviewListView = (ListView) activity.findViewById(R.id.myMoviesList);
+			addMovieLayout = (LinearLayout) activity.findViewById(R.id.addMovieLayout);
+			
+			moviewListView.setEmptyView(emptyViewText);
+		}
+	}
+}

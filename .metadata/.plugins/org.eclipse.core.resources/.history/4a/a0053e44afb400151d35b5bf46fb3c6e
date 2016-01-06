@@ -1,0 +1,5 @@
+package com.zup.movies.movie.web;
+
+public class OMDbWebHelper {
+
+}

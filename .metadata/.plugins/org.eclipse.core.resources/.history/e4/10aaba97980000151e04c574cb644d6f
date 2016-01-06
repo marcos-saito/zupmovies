@@ -1,0 +1,9 @@
+
+public class Marcos
+{
+	public static void main(String[] args)
+	{
+		int i = Integer.parseInt("3");
+		System.out.println(" 1 | 2  = " + i + 1230 );
+	}
+}

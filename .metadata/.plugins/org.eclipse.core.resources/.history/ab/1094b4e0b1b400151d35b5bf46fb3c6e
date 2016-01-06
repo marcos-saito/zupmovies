@@ -1,0 +1,10 @@
+package com.zup.movies.movie.web;
+
+import com.zup.movies.util.WebHelper;
+
+public class OMDbWebHelper extends WebHelper{
+	
+	public void getMovie(String movieName) {
+		String request = String.format("%s/?s=%s", this.getServerUrl(),movieName);
+	}
+}

@@ -1,0 +1,8 @@
+package com.zup.movies.movie.web;
+
+public class OMDbWebHelper {
+
+	public static void getMovie() {
+		
+	}
+}

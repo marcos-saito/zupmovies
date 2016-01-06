@@ -1,0 +1,5 @@
+package com.zup.movies.util;
+
+public class WebHelper {
+
+}

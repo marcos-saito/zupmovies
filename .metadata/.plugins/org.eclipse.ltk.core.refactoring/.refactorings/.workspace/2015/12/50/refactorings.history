@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;CordovaApp-CordovaLib&apos;" deleteContents="false" description="Delete resource &apos;CordovaApp-CordovaLib&apos;" element1="/CordovaApp-CordovaLib" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1449775323187"/>
+</session>

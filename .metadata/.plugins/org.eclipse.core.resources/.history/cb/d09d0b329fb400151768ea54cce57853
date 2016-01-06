@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zup.movies.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/addMovieLayout"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#008080"
+        android:visibility="visible"
+        android:gravity="center_vertical|center"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/new_movie" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_height="wrap_content"
+            android:text="Adicionar Novo Filme" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/myMoviesList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/addMovieLayout" />
+
+    <TextView
+        android:id="@+id/emptyList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myMoviesList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Você não possui filmes" />
+
+</RelativeLayout>

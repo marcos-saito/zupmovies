@@ -1,0 +1,8 @@
+package com.zup.movies.web;
+
+import android.app.Application;
+
+import com.android.volley.toolbox.Volley;
+
+public class MoviesApplication extends Application {
+}

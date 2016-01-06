@@ -1,0 +1,21 @@
+package com.zup.movies.app;
+
+import com.android.volley.RequestQueue;
+import com.android.volley.toolbox.Volley;
+
+import android.app.Application;
+
+public class MoviesApplication extends Application {
+	
+	public static RequestQueue queue;
+	
+	@Override
+	public void onCreate() {
+		super.onCreate();
+		startVolleyQueue();
+	}
+
+	private void startVolleyQueue() {
+		
+	}
+}

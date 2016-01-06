@@ -1,0 +1,22 @@
+package com.zup.movies.util;
+
+import com.zup.movies.R;
+
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.View;
+
+public abstract class CustombarActivity extends AppCompatActivity{
+	
+	protected Toolbar toolbar;
+	
+	public void startToolbar() {
+		View view = getLayoutInflater().inflate(R.layout.toolbar_template, null);
+		this.toolbar = view.findViewById(R.id.toolbar_actionbar);
+		
+		this.setActionBar(this.toolbar);
+		initView();
+	}
+	
+	public abstract void initView();
+}

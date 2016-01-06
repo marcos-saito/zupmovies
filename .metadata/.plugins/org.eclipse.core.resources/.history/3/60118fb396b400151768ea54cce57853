@@ -1,0 +1,26 @@
+package com.zup.movies;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);	
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
+	
+	public void initView() {
+		this.setContentView(R.layout.activity_main);
+		android.widget.Toolbar toolbar = (android.widget.Toolbar) findViewById(R.id.toolbar_actionbar);
+		
+		setActionBar(toolbar);
+	}
+}
