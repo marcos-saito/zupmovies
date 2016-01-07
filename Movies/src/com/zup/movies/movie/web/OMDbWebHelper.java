@@ -14,6 +14,7 @@ public class OMDbWebHelper extends WebHelper{
 		String request = String.format("%s/?s=%s&page=%d", this.getServerUrl(), movieName, page);
 		
 		StringRequest stringRequest = new StringRequest(Request.Method.GET, request, successListener, errorListener);
+		stringRequest.setTag(tag);
 		MoviesApplication.REQUEST_QUEUE.add(stringRequest);
 	}
 }

@@ -1,0 +1,5 @@
+package com.zup.movies.movie.model;
+
+public class MovieSearchDTO {
+
+}

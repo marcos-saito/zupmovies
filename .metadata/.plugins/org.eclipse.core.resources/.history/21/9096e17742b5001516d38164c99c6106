@@ -1,0 +1,30 @@
+package com.zup.movies.movie.controller;
+
+import android.app.Activity;
+import android.text.Editable;
+import android.text.TextWatcher;
+
+public class MovieRegisterActivityController implements TextWatcher {
+	
+	private static String MOVIE_SEARCH_CANCEL_TAG = "searchMovieCancelTag";
+	
+	private String accumulator = "";
+	private Activity activity;
+
+	public MovieRegisterActivityController(Activity activity) {
+		this.activity = activity;
+	}
+
+	@Override
+	public void onTextChanged(CharSequence s, int start, int before, int count) {
+		
+	}
+
+	@Override
+	public void afterTextChanged(Editable s) {
+		
+	}
+	
+	@Override
+	public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+}

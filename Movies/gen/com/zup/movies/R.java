@@ -1909,8 +1909,9 @@ containing a value of this type.
         public static final int abc_textfield_search_activated_mtrl_alpha=0x7f02003a;
         public static final int abc_textfield_search_default_mtrl_alpha=0x7f02003b;
         public static final int abc_textfield_search_material=0x7f02003c;
-        public static final int ic_launcher=0x7f02003d;
-        public static final int new_movie=0x7f02003e;
+        public static final int default_poster=0x7f02003d;
+        public static final int ic_launcher=0x7f02003e;
+        public static final int new_movie=0x7f02003f;
     }
     public static final class id {
         public static final int action_bar=0x7f090040;
@@ -1942,6 +1943,7 @@ containing a value of this type.
         public static final int dialog=0x7f09001e;
         public static final int disableHome=0x7f09000d;
         public static final int dropdown=0x7f09001f;
+        public static final int editTextSearch=0x7f090054;
         public static final int edit_query=0x7f090042;
         public static final int emptyList=0x7f090052;
         public static final int end=0x7f090021;
@@ -1955,15 +1957,19 @@ containing a value of this type.
         public static final int imageView1=0x7f090050;
         public static final int linearLayout1=0x7f090053;
         public static final int listMode=0x7f09000a;
+        public static final int listMovieSearch=0x7f090055;
         public static final int list_item=0x7f09002a;
         public static final int middle=0x7f090022;
+        public static final int movieTitle=0x7f090057;
+        public static final int movieTypeText=0x7f090059;
+        public static final int movieYear=0x7f09005b;
         public static final int multiply=0x7f090014;
         public static final int myMoviesList=0x7f090051;
         public static final int never=0x7f09001c;
         public static final int none=0x7f09000f;
         public static final int normal=0x7f09000b;
         public static final int parentPanel=0x7f09002d;
-        public static final int progressBar1=0x7f090054;
+        public static final int progressBar1=0x7f090056;
         public static final int progress_circular=0x7f090007;
         public static final int progress_horizontal=0x7f090008;
         public static final int radio=0x7f09003a;
@@ -1994,10 +2000,12 @@ containing a value of this type.
         public static final int title=0x7f09002c;
         public static final int title_template=0x7f09002f;
         public static final int topPanel=0x7f09002e;
+        public static final int typePlaceHolder=0x7f090058;
         public static final int up=0x7f090001;
         public static final int useLogo=0x7f090013;
         public static final int withText=0x7f09001d;
         public static final int wrap_content=0x7f090009;
+        public static final int yearText=0x7f09005a;
     }
     public static final class integer {
         public static final int abc_config_activityDefaultDur=0x7f080001;
@@ -2057,10 +2065,11 @@ containing a value of this type.
         public static final int abc_simple_dropdown_hint=0x7f030019;
         public static final int activity_main=0x7f03001a;
         public static final int activity_movie_register=0x7f03001b;
-        public static final int select_dialog_item_material=0x7f03001c;
-        public static final int select_dialog_multichoice_material=0x7f03001d;
-        public static final int select_dialog_singlechoice_material=0x7f03001e;
-        public static final int support_simple_spinner_dropdown_item=0x7f03001f;
+        public static final int movie_item=0x7f03001c;
+        public static final int select_dialog_item_material=0x7f03001d;
+        public static final int select_dialog_multichoice_material=0x7f03001e;
+        public static final int select_dialog_singlechoice_material=0x7f03001f;
+        public static final int support_simple_spinner_dropdown_item=0x7f030020;
     }
     public static final class menu {
         public static final int main=0x7f0c0000;
@@ -2129,6 +2138,9 @@ containing a value of this type.
         public static final int action_settings=0x7f0a0013;
         public static final int app_name=0x7f0a0011;
         public static final int hello_world=0x7f0a0012;
+        public static final int movie_name=0x7f0a0017;
+        public static final int movie_type=0x7f0a0016;
+        public static final int movie_year=0x7f0a0015;
         public static final int title_activity_movie_register=0x7f0a0014;
     }
     public static final class style {

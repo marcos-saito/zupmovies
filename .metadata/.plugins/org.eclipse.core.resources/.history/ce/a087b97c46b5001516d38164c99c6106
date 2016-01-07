@@ -1,0 +1,9 @@
+package com.zup.movies.movie.model;
+
+public class MovieDTO {
+	private String Title;
+	private String Year;
+	private String imdbID;
+	private String type;
+	private String 
+}

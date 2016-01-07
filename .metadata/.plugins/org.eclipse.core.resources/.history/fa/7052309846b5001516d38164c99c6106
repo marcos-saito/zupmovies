@@ -1,0 +1,7 @@
+package com.zup.movies.movie.model;
+
+import java.util.ArrayList;
+
+public class MovieSearchDTO {
+	private ArrayList<MovieDTO> Search;
+}

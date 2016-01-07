@@ -1,0 +1,33 @@
+package com.zup.movies.movie.controller;
+
+import com.zup.movies.movie.web.OMDbWebHelper;
+
+import android.app.Activity;
+import android.text.Editable;
+import android.text.TextWatcher;
+
+public class MovieRegisterActivityController implements TextWatcher {
+	
+	private static String MOVIE_SEARCH_CANCEL_TAG = "searchMovieCancelTag";
+	
+	private String accumulator = "";
+	private Activity activity;
+	private OMDbWebHelper webHelper;
+
+	public MovieRegisterActivityController(Activity activity) {
+		this.activity = activity;
+	}
+
+	@Override
+	public void onTextChanged(CharSequence s, int start, int before, int count) {
+		accumulator = accumulator + s;
+	}
+
+	@Override
+	public void afterTextChanged(Editable s) {
+		if(!accumulator.equals("")) 
+	}
+	
+	@Override
+	public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
+}
