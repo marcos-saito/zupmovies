@@ -1,12 +1,39 @@
 package com.zup.movies.movie.model;
 
-public class MovieEntity {
+import com.j256.ormlite.field.DatabaseField;
+import com.j256.ormlite.table.DatabaseTable;
 
+@DatabaseTable(tableName = "movies")
+public class MovieEntity {
+	@DatabaseField
 	private String Title;
+	
+	@DatabaseField
 	private String Year;
+	
+	@DatabaseField(id = true)
 	private String imdbID;
+	
+	@DatabaseField
 	private String type;
+	
+	@DatabaseField
 	private String Poster;
+	
+	@DatabaseField
+	private boolean Inactive = false;
+	
+	public boolean isInactive() {
+		return Inactive;
+	}
+
+	public void setInactive(boolean inactive) {
+		Inactive = inactive;
+	}
+
+	public MovieEntity() {
+		
+	}
 	
 	public String getTitle() {
 		return Title;

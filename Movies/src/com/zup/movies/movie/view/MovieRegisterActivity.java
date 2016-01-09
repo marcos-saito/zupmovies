@@ -1,6 +1,7 @@
 package com.zup.movies.movie.view;
 
 import com.zup.movies.R;
+import com.zup.movies.movie.controller.MovieListSearchAdapter;
 import com.zup.movies.movie.controller.MovieRegisterActivityController;
 
 import android.app.Activity;
@@ -25,7 +26,7 @@ public class MovieRegisterActivity extends Activity {
 	}
 
 	private void setListeners() {
-		this.controller = new MovieRegisterActivityController(this.holder);
+		this.controller = new MovieRegisterActivityController(this);
 		
 		this.holder.searchEditText.addTextChangedListener(this.controller);
 	}
@@ -49,11 +50,19 @@ public class MovieRegisterActivity extends Activity {
 		this.holder = new Holder(this);
 	}
 	
+	public Holder getHolder() {
+		return holder;
+	}
+
+	public void setHolder(Holder holder) {
+		this.holder = holder;
+	}
+	
 	public class Holder {
 		
-		final EditText searchEditText;
-		final ListView listViewSearch;
-		final TextView emptyListText;
+		public final EditText searchEditText;
+		public final ListView listViewSearch;
+		public final TextView emptyListText;
 		
 		public Holder(Activity activity) {
 			searchEditText = (EditText) activity.findViewById(R.id.editTextSearch);

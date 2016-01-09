@@ -6,6 +6,16 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_movie_register">Cadastrar Filme</string>
     <string name="movie_year">Ano:</string>
-	<string name="movie_type">Gênero:</string>
+	<string name="movie_type">Tipo:</string>
 	<string name="movie_name"></string>
+	<string name="dialog_add_movie_message"><![CDATA[Deseja adicionar o filme <i><b>%s</b></i> na sua lista?]]></string>
+	<string name="dialog_delete_movie_message"><![CDATA[Deseja excluir o filme <i><b>%s</b></i> na sua lista?]]></string>
+
+	<string name="game">Jogo</string>
+	<string name="serie">Série</string>
+	<string name="movie">Filme</string>
+	<string name="loading">Carregando</string>
+	<string name="movie_add_successfully">Filme adicionado com sucesso</string>
+	<string name="movie_delete_successfully">Filme excluído com sucesso</string>
+	
 </resources>

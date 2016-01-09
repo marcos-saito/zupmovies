@@ -1,7 +1,8 @@
 # cache for current jar dependency. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1430331992560 572410 6044ad7bc085fee37a50e494aff6dd5f3869021e C:\Users\marcos.silveira\works\appcompat_v7\libs\android-support-v7-appcompat.jar
-1452098719372 572410 6044ad7bc085fee37a50e494aff6dd5f3869021e C:\Users\marcos.silveira\works\Movies\libs\android-support-v7-appcompat.jar
-1430331992529 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 C:\Users\marcos.silveira\works\appcompat_v7\libs\android-support-v4.jar
-1452091536711 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 C:\Users\marcos.silveira\works\Movies\libs\android-support-v4.jar
+1452212760000 572410 6044ad7bc085fee37a50e494aff6dd5f3869021e /Users/Marcos/Documents/codes/java/zupmovies/Movies/libs/android-support-v7-appcompat.jar
+1452212760000 572410 6044ad7bc085fee37a50e494aff6dd5f3869021e /Users/Marcos/Documents/codes/java/zupmovies/appcompat_v7/libs/android-support-v7-appcompat.jar
+1452212760000 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 /Users/Marcos/Documents/codes/java/zupmovies/Volley/libs/android-support-v4.jar
+1452212760000 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 /Users/Marcos/Documents/codes/java/zupmovies/Movies/libs/android-support-v4.jar
+1452212760000 1157388 605c447c20ca216b5556af9f215af5d4bba1b117 /Users/Marcos/Documents/codes/java/zupmovies/appcompat_v7/libs/android-support-v4.jar
